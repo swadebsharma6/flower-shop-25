@@ -13,7 +13,15 @@
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0%;
-  text-align: left;
+}
+.title {
+  color: rgb(39, 39, 39);
+  font-family: Lato;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
 }
 
 .btn {
@@ -23,13 +31,18 @@
   background: rgb(229, 84, 115);
   color: rgb(247, 244, 244);
   cursor: pointer;
+  transition: all 1s;
+}
+.btn:hover {
+  background-color: rgb(125, 229, 84);
 }
 
 header {
   background-color: rgba(229, 84, 115, 0.1);
+  margin-bottom: 100px;
 }
 
-.banner-container {
+.container {
   width: 75%;
   max-width: 1440px;
   margin: 0 auto;
@@ -60,3 +73,40 @@ header {
   vertical-align: middle;
 }
 /* banner related styles complete */
+
+/* Feature related styles */
+.feature {
+  margin-bottom: 100px;
+}
+.container .feature-heading {
+  width: 445px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.flower-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  /* align-items: center; */
+  gap: 20px;
+}
+
+.flower-container .flower-card .flower-img {
+  background-color: antiquewhite;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  padding: 10px 30px 0;
+  height: 400px;
+  display: flex;
+  align-items: end;
+}
+
+.flower-container .flower-card .flower-img img {
+  width: 100%;
+}
+
+.flower-card h4 {
+  text-align: center;
+}
