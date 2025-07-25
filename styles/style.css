@@ -9,7 +9,7 @@
 .para {
   color: rgb(39, 39, 39);
   font-family: Lato;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 30px;
   letter-spacing: 0%;
@@ -157,4 +157,21 @@ header,
 
 .container .deal-img img {
   width: 100%;
+}
+
+/* Instagram section styles */
+.insta-section {
+  margin-bottom: 100px;
+}
+.container .insta-container .insta-img {
+  width: 256px;
+  margin: 0 auto;
+}
+.container .insta-container .insta-img img {
+  width: 100%;
+}
+
+.container .insta-container {
+  display: flex;
+  gap: 20px;
 }
