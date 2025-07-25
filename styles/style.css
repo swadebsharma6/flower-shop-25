@@ -26,18 +26,20 @@
 
 .btn {
   border-radius: 8px;
-  padding: 20px 40px;
+  padding: 15px 40px;
   border: none;
   background: rgb(229, 84, 115);
   color: rgb(247, 244, 244);
   cursor: pointer;
   transition: all 1s;
+  margin-top: 10px;
 }
 .btn:hover {
   background-color: rgb(125, 229, 84);
 }
 
-header {
+header,
+.deal-container {
   background-color: rgba(229, 84, 115, 0.1);
   margin-bottom: 100px;
 }
@@ -109,4 +111,50 @@ header {
 
 .flower-card h4 {
   text-align: center;
+}
+
+/* Support styles */
+.support-container {
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 70px 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.support-container .support {
+  text-align: center;
+}
+
+/* Deal container styles */
+.deal-container .deal-title {
+  font-family: Lato;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 48px;
+  letter-spacing: 0%;
+}
+
+.deal-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.container .deal-info {
+  width: 445px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container .deal-img {
+  width: 238px;
+  margin: 0 auto;
+}
+
+.container .deal-img img {
+  width: 100%;
 }
