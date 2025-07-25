@@ -175,3 +175,33 @@ header,
   display: flex;
   gap: 20px;
 }
+
+/* Subscribe container styles */
+.subscribe-container {
+  border-radius: 8px;
+  background: url("/img/Rectangle 9.png");
+  background-size: cover;
+  height: 336px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.subscribe-container .subscribe-box {
+  width: 650px;
+  height: 154px;
+}
+
+.subscribe-container input {
+  width: 75%;
+  margin: 0 auto;
+  height: 40px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+
+.subscribe-box {
+  text-align: center;
+  margin-bottom: 30px;
+}
